@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 materials: "https://drive.google.com/drive/folders/13wBw8r6rJ8N4IZ2KSQ6FCvRJ4_8UUNSl?usp=sharing"
 feedback: "https://docs.google.com/forms/d/e/1FAIpQLSeWjRfWT0cBCeMwR7Hii5WVAXf2MtGgNjBQAX1o0xgOvy6Y2A/viewform?usp=sf_link"
+lectures: "https://www.youtube.com/playlist?list=PL5bovfSPV_r88LWCnvDpejp2tt2vDAYfP"
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0
