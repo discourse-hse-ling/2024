@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: сайтик курса по дискурсу
+title:сайтик курса по дискурсу
 description: >- # this means to ignore newlines until "baseurl:"
   для бакалавров лингвистики ниу вшэ 2024
 
