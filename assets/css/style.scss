@@ -7,7 +7,7 @@ $header-heading-color: #716660;
 
 $section-headings-color: #b08113;
 $body-text-color: #606c71;
-$body-link-color: #b08113;
+$body-link-color: #606c71;
 
 @import "{{ site.theme }}";
 
@@ -16,10 +16,15 @@ $body-link-color: #b08113;
   font-family: "Bona Nova", serif;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .btn {
   color: #716660;
   border-color: #716660;
   background-color: rgba(0, 0, 0, 0.01);
+  text-decoration: none;
 
   &:hover {
     color: #52453e;
