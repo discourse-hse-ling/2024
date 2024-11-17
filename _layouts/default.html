@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -18,8 +20,8 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        <a href="{{ materials }}" class="btn">материалы курса</a>
-        <a href="{{ feedback }}" class="btn">форма для обратной связи</a>
+        <a href="{{ site.materials }}" class="btn">материалы курса</a>
+        <a href="{{ site.feedback }}" class="btn">форма для обратной связи</a>
     </header>
 
     <main id="content" class="main-content" role="main">
