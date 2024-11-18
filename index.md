@@ -6,9 +6,11 @@
 ---
 
 # пары
-## лекция 3 --- импликатуры дискурса
-[слайды](https://drive.google.com/file/d/1Qjf1Wn1yBdN1DC7j4v1Z4Ei5BCMm40Px/view?usp=sharing) 
 
+{% for lecture in site.data.lectures %}
+## лекция {{ lecture.n }} --- {{ lecture.title }}
+[слайды]({{ lecture.slides }})
+{% endfor %}
 ---
 
 # домашние задания
