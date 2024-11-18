@@ -13,8 +13,10 @@
 
 # домашние задания
 
-## неделя 18.09--25.09
-[мини-тест по типологии дискурса](https://docs.google.com/forms/d/e/1FAIpQLScX7t-m1p0hBEpiGiNL8rLxK7bo_rK_9FJ1M0d1mBs-56wQaQ/viewform?fbzx=3945987572856256997) 
+{% for assignment in site.data.assignments %}
+## [{{ assignment.title }}]({{ assignment.link }})
+<!--[ссылка]({{ assignment.link }}) -->
 
-## 18.09 (пн) 23:59
-[квиз по Витгенштейну](https://docs.google.com/forms/d/e/1FAIpQLScVoglWcDW1iJrmK9xh86i0wO_VJRp8KtCkAris_9oTPZLmUg/viewform) 
+группа 1 | группа 2
+{{ assignment.dl-1 }} | {{assignment.dl-2}}
+{% endfor %}
