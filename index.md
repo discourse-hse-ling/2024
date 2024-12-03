@@ -5,14 +5,6 @@
 
 ---
 
-# пары
-
-{% for lecture in site.data.lectures %}
-## лекция {{ lecture.n }} --- {{ lecture.title }}
-[слайды]({{ lecture.slides }})
-{% endfor %}
----
-
 # домашние задания
 
 {% for assignment in site.data.assignments %}
@@ -25,3 +17,15 @@
 [ссылка для сдачи]({{ assignment.submit-link }}) 
 {% endif %}
 {% endfor %}
+
+---
+
+# слайды
+
+{% for lecture in site.data.lectures %}
+<!--## лекция {{ lecture.n }} --- {{ lecture.title }}-->
+<!--[слайды]({{ lecture.slides }})-->
+* [лекция {{ lecture.n }} --- {{ lecture.title }}]({{ lecture.slides }}) 
+
+{% endfor %}
+
