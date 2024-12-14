@@ -13,8 +13,8 @@
 группа 1 | группа 2
 {{ assignment.dl-1 }} | {{assignment.dl-2}}
 
-{% if assignment.submit-link != nil %}
-[ссылка для сдачи]({{ assignment.submit-link }}) 
+{% if assignment.comment != nil %}
+{{ assignment.comment }}
 {% endif %}
 {% endfor %}
 
