@@ -22,9 +22,10 @@ title: сайтик курса по дискурсу
 description: >- # this means to ignore newlines until "baseurl:"
   для бакалавров лингвистики ниу вшэ 2024
 
-materials: "https://drive.google.com/drive/folders/13wBw8r6rJ8N4IZ2KSQ6FCvRJ4_8UUNSl?usp=sharing"
-feedback: "https://docs.google.com/forms/d/e/1FAIpQLSeWjRfWT0cBCeMwR7Hii5WVAXf2MtGgNjBQAX1o0xgOvy6Y2A/viewform?usp=sf_link"
+materials: "https://drive.google.com/drive/folders/13wBw8r6rJ8N4IZ2KSQ6FCvRJ4_8UUNSl"
+feedback: "https://docs.google.com/forms/d/e/1FAIpQLSeWjRfWT0cBCeMwR7Hii5WVAXf2MtGgNjBQAX1o0xgOvy6Y2A/viewform"
 lectures: "https://www.youtube.com/playlist?list=PL5bovfSPV_r88LWCnvDpejp2tt2vDAYfP"
+grades: "https://docs.google.com/spreadsheets/d/1qTiYHxVEXpeCqkhDLV7bBx3uX5SSthZBkUsilOJnqYs"
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0
